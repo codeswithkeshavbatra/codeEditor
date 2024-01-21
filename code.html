@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="code.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>ff
+    <div class="container"> 
+        <div class="code">
+            <label for="Html"> <i class="fa-brands fa-html5"></i>HTML</label>
+            <textarea name="html" id="HtmL-code" onkeyup="run()"></textarea>
+            <label for="CSS"> <i class="fa-brands fa-css3-alt"></i>CSS</label>
+            <textarea name="css" id="css-code" onkeyup="run()"></textarea>
+            <label for="JS"> <i class="fa-brands fa-js"></i>JS</label>
+            <textarea name="js" id="js-code" onkeyup="run()"></textarea>
+        </div>
+        <div class="result"><label for="Output"><i class="fa-solid fa-play"></i> Output</label><iframe id="Output"></iframe></div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
